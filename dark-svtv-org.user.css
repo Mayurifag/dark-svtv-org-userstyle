@@ -1,0 +1,142 @@
+main.page__content-wrap {
+  background-color: #000000;
+}
+
+p.card-news__title {
+  color: #ffffff;
+  background-color: inherit;
+}
+
+a.block-cards__button {
+  background-color: #FED27A;
+  color: #1E1C1C;
+}
+
+h1.post-fullpage__title {
+  color: #ffffff;
+}
+
+div div p {
+  color: #ffffff;
+  background-color: inherit;
+}
+
+h2.block-cards__title {
+  color: #ffffff;
+}
+
+p.card-news__category {
+  color: #FED27A;
+  background-color: inherit;
+}
+
+div.card-news__content {
+  background-color: #151515;
+}
+
+button.block-cards__button {
+  background-color: #FED27A;
+  color: #000000;
+}
+
+div.post-fullpage__content {
+  background-color: #151515;
+}
+
+div.card-thread__content {
+  background-color: #151515;
+}
+
+p.card-thread__category {
+  color: #FED27A;
+  background-color: inherit;;
+}
+
+p.post-fullpage__title-info {
+  background-color: #1E1C1C;
+}
+
+div.thread-blob {
+  background-color: #1E1C1C;
+}
+
+.thread-blob__date {
+  color: #FED27A;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+p.card-opinions__text {
+  background-color: #282828;
+
+}
+
+p.card-opinions__category {
+  background-color: #282828;
+  color: #7aefff;
+}
+
+p.card-opinions__person-name {
+  background-color: #282828;
+}
+
+p.card-opinions__date {
+  background-color: #282828;
+}
+
+p.card-factchecking__text {
+  background-color: #282828;
+}
+
+div.card-factchecking__person {
+  background-color: #282828;
+}
+
+p.card-factchecking__person-name {
+  background-color: #282828;
+}
+
+p.card-factchecking__category {
+
+  background-color: #282828;
+  color: #ff4a4a;
+}
+
+p.card-factchecking__person-description {
+  background-color: #282828;
+  color: #7d7d7d;
+}
+
+p.card-factchecking__date {
+  background-color: #282828;
+}
+
+html {
+  background-color: #000000;
+}
+
+p.card-tests__title {
+  background-color: inherit;
+}
+
+p.card-tests__category {
+  color: #bcaeff;
+  background-color: inherit;
+}
+
+.block-cards__item-width-1-5 {
+  color: #282828;
+  background-color: #282828;
+}
+
+p.card-thread__title {
+  background-color: inherit;
+}
+
+p.banner__navigation-text {
+  background-color: inherit;
+}
+
+p.banner__navigation-date {
+  background-color: inherit;
+}
