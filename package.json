@@ -1,0 +1,39 @@
+{
+  "name": "dark-svtv-org-userstyle",
+  "title": "Dark svtv.org userstyle",
+  "version": "1.0.0",
+  "description": " Userstyle for svtv.org to make site dark, readable and have less css mistakes",
+  "license": "MIT",
+  "repository": "Mayurifag/dark-svtv-org-userstyle",
+  "homepage": "https://github.com/Mayurifag/dark-svtv-org-userstyle",
+  "main": "dark-svtv-org.user.css",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-silverwind": "^47.1.0",
+    "markdownlint": "^0.24.0",
+    "markdownlint-cli": "^0.30.0",
+    "perfectionist": "^2.4.0",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
+    "updates": "^13.0.0",
+    "versions": "^9.1.1"
+  },
+  "scripts": {
+    "authors": "bash tools/authors.sh",
+    "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
+    "eslint": "eslint tools/*.js",
+    "lint": "npm run eslint && npm run stylelint && npm run markdownlint",
+    "fix": "npm run stylelint --fix",
+    "major": "versions -C -p major dark-svtv-org.user.css",
+    "minor": "versions -C -p minor dark-svtv-org.user.css",
+    "patch": "versions -C -p patch dark-svtv-org.user.css",
+    "perfectionist": "perfectionist dark-svtv-org.user.css dark-svtv-org.user.css --indentSize 2 --maxAtRuleLength 250",
+    "stylelint": "stylelint dark-svtv-org.user.css",
+    "markdownlint": "markdownlint '**/*.md' --ignore node_modules",
+    "test": "npm run lint",
+    "update": "updates -cu && npm install"
+  }
+}

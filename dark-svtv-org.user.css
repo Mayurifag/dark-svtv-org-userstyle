@@ -1,142 +1,120 @@
+/* ==UserStyle==
+@name        Dark svtv.org userstyle
+@namespace   Mayurifag
+@version     1.0.0
+@homepageURL https://github.com/Mayurifag/dark-svtv-org-userstyle
+@updateURL   https://raw.githubusercontent.com/Mayurifag/dark-svtv-org-userstyle/main/dark-svtv-org.user.css
+@license     MIT
+@author      Mayurifag
+@preprocessor uso
+==/UserStyle== */
+
 main.page__content-wrap {
-  background-color: #000000;
+  background-color: #000;
 }
-
 p.card-news__title {
-  color: #ffffff;
+  color: #fff;
   background-color: inherit;
 }
-
 a.block-cards__button {
-  background-color: #FED27A;
-  color: #1E1C1C;
+  background-color: #fed27a;
+  color: #1e1c1c;
 }
-
 h1.post-fullpage__title {
-  color: #ffffff;
+  color: #fff;
 }
-
 div div p {
-  color: #ffffff;
+  color: #fff;
   background-color: inherit;
 }
-
 h2.block-cards__title {
-  color: #ffffff;
+  color: #fff;
 }
-
 p.card-news__category {
-  color: #FED27A;
+  color: #fed27a;
   background-color: inherit;
 }
-
 div.card-news__content {
   background-color: #151515;
 }
-
 button.block-cards__button {
-  background-color: #FED27A;
-  color: #000000;
+  background-color: #fed27a;
+  color: #000;
 }
-
 div.post-fullpage__content {
   background-color: #151515;
 }
-
 div.card-thread__content {
   background-color: #151515;
 }
-
 p.card-thread__category {
-  color: #FED27A;
-  background-color: inherit;;
+  color: #fed27a;
+  background-color: inherit;
 }
-
 p.post-fullpage__title-info {
-  background-color: #1E1C1C;
+  background-color: #1e1c1c;
 }
-
 div.thread-blob {
-  background-color: #1E1C1C;
+  background-color: #1e1c1c;
 }
-
 .thread-blob__date {
-  color: #FED27A;
+  color: #fed27a;
   font-weight: 400;
   opacity: 0.9;
 }
-
 p.card-opinions__text {
   background-color: #282828;
-
 }
-
 p.card-opinions__category {
   background-color: #282828;
   color: #7aefff;
 }
-
 p.card-opinions__person-name {
   background-color: #282828;
 }
-
 p.card-opinions__date {
   background-color: #282828;
 }
-
 p.card-factchecking__text {
   background-color: #282828;
 }
-
 div.card-factchecking__person {
   background-color: #282828;
 }
-
 p.card-factchecking__person-name {
   background-color: #282828;
 }
-
 p.card-factchecking__category {
-
   background-color: #282828;
   color: #ff4a4a;
 }
-
 p.card-factchecking__person-description {
   background-color: #282828;
   color: #7d7d7d;
 }
-
 p.card-factchecking__date {
   background-color: #282828;
 }
-
 html {
-  background-color: #000000;
+  background-color: #000;
 }
-
 p.card-tests__title {
   background-color: inherit;
 }
-
 p.card-tests__category {
   color: #bcaeff;
   background-color: inherit;
 }
-
 .block-cards__item-width-1-5 {
   color: #282828;
   background-color: #282828;
 }
-
 p.card-thread__title {
   background-color: inherit;
 }
-
 p.banner__navigation-text {
   background-color: inherit;
 }
-
 p.banner__navigation-date {
   background-color: inherit;
 }
