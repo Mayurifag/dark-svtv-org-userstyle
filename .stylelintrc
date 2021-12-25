@@ -25,7 +25,7 @@ rules:
 #   max-empty-lines: 0
 #   no-descending-specificity: null
 #   no-duplicate-selectors: null
-#   number-leading-zero: never
+  number-leading-zero: never
 #   number-max-precision: 3
 #   number-no-trailing-zeros: true
   rule-empty-line-before: null
