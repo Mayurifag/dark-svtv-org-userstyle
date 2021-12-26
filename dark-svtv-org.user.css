@@ -165,7 +165,7 @@
     color: white;
   }
   .post-fullpage__content {
-    background-color: #1e1c1c;
+    background-color: #1e1c1c !important;
     color: white;
   }
 }
