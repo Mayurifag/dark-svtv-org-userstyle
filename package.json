@@ -22,7 +22,7 @@
     "versions": "^9.1.1"
   },
   "scripts": {
-    "authors": "bash tools/authors.sh",
+    "authors": "bash ./tools/authors.sh",
     "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint tools/*.js",
     "lint": "npm run eslint && npm run stylelint && npm run markdownlint",
