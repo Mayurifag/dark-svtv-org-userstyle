@@ -33,6 +33,13 @@
   .card-news--minimal .card-news__category {
     color: #fed27a;
   }
+  .card-news--minimal {
+    background-color: #804c00;
+  }
+  .card-news--minimal .card-news__content:hover {
+    color: #804c00;
+    background-color: #804c00;
+  }
   .card-news__content {
     background-color: #151515;
   }
@@ -123,14 +130,8 @@
     color: #fff;
     border-color: #1e1c1c !important;
   }
-  .card-news--minimal {
-    background-color: inherit;
-  }
   .card-news__date {
-    color: #686868;
-  }
-  .card-news--minimal .card-news__image-wrap {
-    display: inherit;
+    color: #929292;
   }
   .page__footer-wrap {
     box-shadow: inherit;
