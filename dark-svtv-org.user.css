@@ -181,4 +181,7 @@
     display: inherit;
   }
   */
+  .sb-live__button {
+    background-color: #e0e0e0;
+  }
 }
