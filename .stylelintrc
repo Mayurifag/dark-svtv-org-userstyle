@@ -10,7 +10,7 @@ rules:
 #   block-opening-brace-space-before: null
 #   color-hex-case: null
 #   color-named: null
-#   comment-empty-line-before: null
+  comment-empty-line-before: null
 #   comment-no-empty: null
 #   comment-whitespace-inside: null
 #   declaration-bang-space-before: null

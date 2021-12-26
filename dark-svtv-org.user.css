@@ -36,12 +36,12 @@
   .card-news--minimal {
     background-color: #804c00;
   }
+  .card-news__content {
+    background-color: #151515;
+  }
   .card-news--minimal .card-news__content:hover {
     color: #804c00;
     background-color: #804c00;
-  }
-  .card-news__content {
-    background-color: #151515;
   }
   .card-thread__content {
     background-color: #151515;
@@ -169,4 +169,16 @@
     background-color: #1e1c1c !important;
     color: white;
   }
+  .author-header__name {
+    color: white;
+  }
+  .author-header__description {
+    color: #929292;
+  }
+
+  /* TODO: make this optional for userstyles
+  .card-news--minimal .card-news__image-wrap {
+    display: inherit;
+  }
+  */
 }
