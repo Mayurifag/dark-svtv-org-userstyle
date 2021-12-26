@@ -36,9 +36,6 @@
   .card-news__content {
     background-color: #151515;
   }
-  .post-fullpage__content {
-    background-color: #151515;
-  }
   .card-thread__content {
     background-color: #151515;
   }
@@ -102,10 +99,11 @@
   }
   .block-cards__item-width-1-5 {
     color: #282828;
-    background-color: #282828;
+    background-color: inherit;
   }
   .card-thread__title {
     background-color: inherit;
+    color: #fff;
   }
   .banner__navigation-text {
     background-color: inherit;
@@ -138,28 +136,19 @@
     box-shadow: inherit;
   }
   .post-donation__header {
-    background-color: #1e1c1c
+    background-color: #1e1c1c;
   }
   .post-donation__crypto-name {
     background-color: #1e1c1c;
   }
-  .post-fullpage__content {
-    background-color: #1e1c1c;
-  }
-  .card-thread__title {
-    color: #ffffff
-  }
   .card-thread__date {
-    color: #999999;
-  }
-  .block-cards__item-width-1-5 {
-    background-color: inherit;
+    color: #999;
   }
   .page--is-test .page__footer-wrap {
     display: none;
   }
   .quiz-test__title {
-    color: #ffffff;
+    color: #fff;
   }
   .quiz-test__poll-value-text {
     color: white;
