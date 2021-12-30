@@ -54,9 +54,10 @@
     background-color: #1e1c1c;
   }
   .thread-blob {
-    background-color: #1e1c1c;
+    background-color: #212121;
   }
   .thread-blob__date {
+    background-color: #212121;
     color: #fed27a;
     font-weight: 400;
     opacity: .9;
@@ -183,5 +184,11 @@
   */
   .sb-live__button {
     background-color: #e0e0e0;
+  }
+  .thread-blob p {
+    background-color: #212121;
+  }
+  .thread-blob::after {
+    background-color: #424242;
   }
 }
