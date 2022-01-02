@@ -195,6 +195,6 @@
     color: #fafafa;
   }
   .quiz-test__category {
-    color: #bcaeff;
+    color: #bcaeff !important;
   }
 }
