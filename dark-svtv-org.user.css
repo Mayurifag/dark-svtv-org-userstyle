@@ -9,109 +9,122 @@
 @preprocessor uso
 ==/UserStyle== */
 @-moz-document domain("svtv.org") {
+  :root {
+    --background-primary: #000;
+    --background-secondary: #1e1c1c;
+    --background-3: #282828;
+    --text-primary: #fff;
+    --text-secondary: #939393;
+    --accent: #fed27a;
+    --thread: #f7931a;
+    --factchecking: #ff4a4a;
+    --test: #bcaeff;
+    --opinions: #7aefff;
+    --my-news-minimal-background: #804c00;
+  }
+  html {
+    background-color: var(--background-primary);
+  }
   .page__content-wrap {
-    background-color: #000;
+    background-color: var(--background-primary);
   }
   .card-news__title {
-    color: #fff;
+    color: var(--text-primary);
     background-color: inherit;
   }
   .block-cards__button {
-    background-color: #fed27a;
-    color: #1e1c1c;
+    background-color: var(--accent);
+    color: var(--background-secondary);
   }
   .post-fullpage__title {
-    color: #fff;
+    color: var(--text-primary);
   }
   .block-cards__title {
-    color: #fff;
+    color: var(--text-primary);
   }
   .card-news__category {
-    color: #fed27a;
+    color: var(--accent);
     background-color: inherit;
   }
   .card-news--minimal .card-news__category {
-    color: #fed27a;
+    color: var(--accent);
   }
   .card-news--minimal {
-    background-color: #804c00;
+    background-color: var(--my-news-minimal-background);
   }
   .card-news__content {
-    background-color: #151515;
+    background-color: var(--background-secondary);
   }
   .card-news--minimal .card-news__content:hover {
-    color: #804c00;
-    background-color: #804c00;
+    color: var(--my-news-minimal-background);
+    background-color: var(--my-news-minimal-background);
   }
   .card-thread__content {
-    background-color: #151515;
+    background-color: var(--background-secondary);
   }
   .card-thread__category {
-    color: #f7931a;
+    color: var(--thread);
     background-color: inherit;
   }
   .post-fullpage__title-info {
-    background-color: #1e1c1c;
+    background-color: var(--background-secondary);
   }
   .thread-blob {
-    background-color: #212121;
+    background-color: var(--background-3);
   }
   .thread-blob__date {
-    background-color: #212121;
-    color: #fed27a;
+    background-color: var(--background-3);
+    color: var(--accent);
     font-weight: 400;
     opacity: .9;
   }
   .card-opinions__text {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-opinions__category {
-    background-color: #282828;
-    color: #7aefff;
+    background-color: var(--background-3);
+    color: var(--opinions);
   }
   .card-opinions__person-name {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-opinions__date {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-factchecking__text {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-factchecking__person {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-factchecking__person-name {
-    background-color: #282828;
+    background-color: var(--background-3);
   }
   .card-factchecking__category {
-    background-color: #282828;
-    color: #ff4a4a;
+    background-color: var(--background-3);
+    color: var(--factchecking);
   }
   .card-factchecking__person-description {
-    background-color: #282828;
-    color: #7d7d7d;
+    background-color: var(--background-3);
+    color: var(--text-secondary);
   }
   .card-factchecking__date {
-    background-color: #282828;
-  }
-  html {
-    background-color: #000;
+    background-color: var(--background-3);
   }
   .card-tests__title {
     background-color: inherit;
   }
   .card-tests__category {
-    color: #bcaeff;
+    color: var(--test);
     background-color: inherit;
   }
   .block-cards__item-width-1-5 {
-    color: #282828;
+    color: var(--background-3);
     background-color: inherit;
   }
   .card-thread__title {
     background-color: inherit;
-    color: #fff;
+    color: var(--text-primary);
   }
   .banner__navigation-text {
     background-color: inherit;
@@ -123,97 +136,111 @@
     display: none;
   }
   .sb-footer__text {
-    background-color: #1e1c1c;
-    color: #fff;
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
   }
   .sb-footer {
-    background-color: #1e1c1c;
-    color: #fff;
-    border-color: #1e1c1c !important;
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+    border-color: var(--background-secondary) !important;
   }
   .card-news__date {
-    color: #929292;
+    color: var(--text-secondary);
   }
   .page__footer-wrap {
     box-shadow: inherit;
   }
   .post-donation__header {
-    background-color: #1e1c1c;
+    background-color: var(--background-secondary);
   }
   .post-donation__crypto-name {
-    background-color: #1e1c1c;
+    background-color: var(--background-secondary);
   }
   .card-thread__date {
-    color: #999;
+    color: var(--text-secondary);
   }
   .page--is-test .page__footer-wrap {
     display: none;
   }
   .quiz-test__title {
-    color: #fff;
+    color: var(--text-primary);
   }
   .quiz-test__poll-value-text {
-    color: white;
+    color: var(--text-primary);
   }
   .quiz-test__poll-value {
-    background-color: #212121;
-    color: white;
+    background-color: var(--background-3);
+    color: var(--text-primary);
   }
   .quiz-test__socials-header {
-    color: white;
+    color: var(--text-primary);
   }
   .post-fullpage__content p {
-    background-color: #1e1c1c;
-    color: white;
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
   }
   .post-fullpage__content {
-    background-color: #1e1c1c !important;
-    color: white;
+    background-color: var(--background-secondary) !important;
+    color: var(--text-primary);
   }
   .author-header__name {
-    color: white;
+    color: var(--text-primary);
   }
   .author-header__description {
-    color: #929292;
+    color: var(--text-secondary);
   }
   /* TODO: make this optional for userstyles
   .card-news--minimal .card-news__image-wrap {
     display: inherit;
   }
   */
+  /* TODO: think do I need to recolor watch live stream button
   .sb-live__button {
     background-color: #e0e0e0;
-  }
+  } */
   .thread-blob p {
-    background-color: #212121;
+    background-color: var(--background-3);
   }
   .thread-blob::after {
-    background-color: #424242;
+    background-color: var(--background-3);
   }
   /* 404 page */
   .container__title {
-    color: #fafafa;
+    color: var(--text-primary);
   }
   .quiz-test__category {
-    color: #bcaeff !important;
+    color: var(--test) !important;
   }
-  /* svtv.org/author/xxxx doesnt have donation footer actually, but has wrong div */
+  /* some pages have no donation footer actually, but have wrong footer div */
   .author-template .page__footer-wrap {
     background-color: inherit;
   }
+  .page--is-post-donation .page__footer-wrap {
+    background-color: inherit;
+  }
+  /* Sidebar navigation links colored on hover */
   a.sb-navigation__item-link[href*="/news/"]:hover .sb-navigation__icon svg {
-    fill: #fed27a;
+    fill: var(--accent);
   }
   a.sb-navigation__item-link[href*="/opinion/"]:hover .sb-navigation__icon svg {
-    fill: #7aefff;
+    fill: var(--opinions);
   }
   a.sb-navigation__item-link[href*="/thread/"]:hover .sb-navigation__icon svg {
-    fill: #f7931a;
+    fill: var(--thread);
   }
   a.sb-navigation__item-link[href*="/factchecking/"]:hover .sb-navigation__icon svg {
-    fill: #ff4a4a;
+    fill: var(--factchecking);
   }
   a.sb-navigation__item-link[href*="/tests/"]:hover .sb-navigation__icon svg {
-    fill: #bcaeff;
+    fill: var(--test);
+  }
+  .post-card-notice--tor .post-card-notice__description {
+    background-color: inherit !important;
+  }
+  .post-card-notice--red-shield {
+    background-color: var(--background-3);
+  }
+  .post-card-notice--red-shield .post-card-notice__description {
+    background-color: var(--background-3);
   }
 }
