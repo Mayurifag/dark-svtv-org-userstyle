@@ -62,6 +62,6 @@ Thanks to all that have [contributed](AUTHORS.md) so far!
 
 Стиль хостится на следующих сайтах, но обновления все равно с Github:
 
-* userstyles.world: <https://userstyles.world/style/2519/dark-svtv-org-userstyle>
+* userstyles.world: <https://userstyles.world/style/2592/dark-svtv-org-userstyle>
 * userstyles.org: <https://userstyles.org/styles/223598/dark-svtv-org-userstyle>
 * uso.kkx.one: <https://uso.kkx.one/style/223598>
