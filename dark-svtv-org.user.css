@@ -191,4 +191,8 @@
   .thread-blob::after {
     background-color: #424242;
   }
+  /* 404 page */
+  .container__title {
+    color: #fafafa;
+  }
 }
