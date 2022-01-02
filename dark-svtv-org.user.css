@@ -201,4 +201,19 @@
   .author-template .page__footer-wrap {
     background-color: inherit;
   }
+  a.sb-navigation__item-link[href*="/news/"]:hover .sb-navigation__icon svg {
+    fill: #fed27a;
+  }
+  a.sb-navigation__item-link[href*="/opinion/"]:hover .sb-navigation__icon svg {
+    fill: #7aefff;
+  }
+  a.sb-navigation__item-link[href*="/thread/"]:hover .sb-navigation__icon svg {
+    fill: #f7931a;
+  }
+  a.sb-navigation__item-link[href*="/factchecking/"]:hover .sb-navigation__icon svg {
+    fill: #ff4a4a;
+  }
+  a.sb-navigation__item-link[href*="/tests/"]:hover .sb-navigation__icon svg {
+    fill: #bcaeff;
+  }
 }
