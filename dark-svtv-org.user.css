@@ -197,4 +197,8 @@
   .quiz-test__category {
     color: #bcaeff !important;
   }
+  /* svtv.org/author/xxxx doesnt have donation footer actually, but has wrong div */
+  .author-template .page__footer-wrap {
+    background-color: inherit;
+  }
 }
