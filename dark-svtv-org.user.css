@@ -176,7 +176,6 @@
   .author-header__description {
     color: #929292;
   }
-
   /* TODO: make this optional for userstyles
   .card-news--minimal .card-news__image-wrap {
     display: inherit;
@@ -194,5 +193,8 @@
   /* 404 page */
   .container__title {
     color: #fafafa;
+  }
+  .quiz-test__category {
+    color: #bcaeff;
   }
 }
