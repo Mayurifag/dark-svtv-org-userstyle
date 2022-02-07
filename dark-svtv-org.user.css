@@ -247,4 +247,10 @@
   .post-card-notice--red-shield .post-card-notice__description {
     background-color: var(--background-3);
   }
+  .post-jobs-item {
+    background-color: var(--background-3);
+  }
+  .post-jobs-item__paragraph {
+    background-color: var(--background-3);
+  }
 }
