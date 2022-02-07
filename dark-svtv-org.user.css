@@ -247,6 +247,27 @@
   .post-card-notice--red-shield .post-card-notice__description {
     background-color: var(--background-3);
   }
+  .sb-currency__items {
+    background-color: var(--background-secondary);
+  }
+  .sb-currency {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary) !important;
+  }
+  .sb-currency__value {
+    color: var(--text-primary);
+  }
+  .sb-currency__token {
+    color: var(--text-primary);
+  }
+  /* xd nice color */
+  .sb-currency__token--btc {
+    color: var(--thread);
+    opacity: 1;
+  }
+  .sb-currency__arrow {
+    vertical-align: inherit;
+  }
   .post-jobs-item {
     background-color: var(--background-3);
   }
