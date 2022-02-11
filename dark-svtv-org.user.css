@@ -238,6 +238,9 @@
   a.sb-navigation__item-link[href*="/translation/"]:hover .sb-navigation__icon svg {
     fill: var(--translation);
   }
+  a.sb-navigation__item-link[href*="/search/"]:hover .sb-navigation__icon svg {
+    fill: var(--text-primary);
+  }
   .post-card-notice--tor .post-card-notice__description {
     background-color: inherit !important;
   }
