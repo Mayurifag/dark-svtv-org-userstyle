@@ -272,6 +272,6 @@
     background-color: var(--background-3);
   }
   .post-jobs-item__paragraph {
-    background-color: var(--background-3);
+    background-color: var(--background-3) !important;
   }
 }
