@@ -286,4 +286,38 @@
   .post-jobs-item__paragraph {
     background-color: var(--background-3) !important;
   }
+  /* 'Online' sidebar block */
+  .sb-online__heading {
+    background-color: var(--background-secondary);
+    color: var(--text-primary) !important;
+    border-bottom: 1px outset var(--text-secondary);
+  }
+  .sb-online__list {
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+  }
+  .sb-online {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-secondary) !important;
+  }
+  .sb-online__item {
+    border-bottom: 1px outset var(--text-secondary);
+  }
+  .sb-online__show-all-button {
+    background-color: var(--background-3);
+    color: var(--text-primary);
+  }
+}
+@-moz-document url("https://svtv.org/online/") {
+  .block-cards--news {
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+    padding: 18px;
+  }
+  .online__message-text {
+    line-height: 24px !important;
+  }
+  .block-cards__item {
+    border-bottom: 1px outset var(--text-secondary);
+  }
 }
