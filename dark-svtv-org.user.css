@@ -247,6 +247,9 @@
   a.sb-navigation__item-link[href*="/search/"]:hover .sb-navigation__icon svg {
     fill: var(--text-primary);
   }
+  a.sb-navigation__item-link[href*="/context/"]:hover .sb-navigation__icon svg {
+    fill: var(--accent);
+  }
   .post-card-notice--tor .post-card-notice__description {
     background-color: inherit !important;
   }
