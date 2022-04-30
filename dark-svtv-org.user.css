@@ -286,38 +286,50 @@
   .post-jobs-item__paragraph {
     background-color: var(--background-3) !important;
   }
-  /* 'Online' sidebar block */
-  .sb-online__heading {
-    background-color: var(--background-secondary);
-    color: var(--text-primary) !important;
-    border-bottom: 1px outset var(--text-secondary);
+  /* 'Online' sidebar page and block */
+  .tag-online .page__content-wrap {
+    background: inherit;
   }
-  .sb-online__list {
-    background-color: var(--background-secondary);
+  .online__message-text {
+    background: var(--background-secondary);
     color: var(--text-primary);
   }
-  .sb-online {
-    background-color: var(--background-secondary);
-    border: 1px solid var(--background-secondary) !important;
+  .block-cards__item {
+    background: var(--background-secondary) !important;
   }
-  .sb-online__item {
-    border-bottom: 1px outset var(--text-secondary);
+  .online__message-time {
+    color: var(--text-secondary);
+  }
+  .sb-online {
+    background: var(--background-secondary) !important;
+    color: var(--text-primary);
+    border-color: var(--background-secondary) !important;
   }
   .sb-online__show-all-button {
     background-color: var(--background-3);
+    color: var(--thread);
+  }
+  .sb-online__show-all-button:hover {
+    background-color: var(--background-4);
+  }
+  .sb-online__item {
+    background: var(--background-secondary);
     color: var(--text-primary);
   }
-}
-@-moz-document url("https://svtv.org/online/") {
-  .block-cards--news {
-    background-color: var(--background-secondary);
-    color: var(--text-primary);
-    padding: 18px;
+  .sb-online__item:hover {
+    background: var(--background-4);
   }
-  .online__message-text {
-    line-height: 24px !important;
+  .post-fullpage__content.page-gas {
+    background-color: transparent !important;
   }
-  .block-cards__item {
-    border-bottom: 1px outset var(--text-secondary);
+  /* That looks stupid. I should make this semi-transparent or something */
+  .page-gas__social-list {
+    background: var(--background-secondary);
+  }
+  .page-gas__social {
+    background: var(--background-secondary);
+  }
+  .page-gas__social-text {
+    color: var(--text-secondary);
   }
 }
