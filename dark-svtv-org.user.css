@@ -22,6 +22,7 @@
     --opinions: #7aefff;
     --translation: #2e8eff;
     /* --my-news-minimal-background: #804c00; */
+    --selection-background: rgba(255,187,66,.27);
   }
   html {
     background-color: var(--background-primary);
@@ -284,15 +285,15 @@
     background-color: var(--background-3);
     color: var(--thread);
   }
-  .sb-online__show-all-button:hover {
-    background-color: var(--background-4);
+  .sb-online__show-all-button::selection {
+    background-color: var(--selection-background);
   }
   .sb-online__item {
     background: var(--background-secondary);
     color: var(--text-primary);
   }
   .sb-online__item:hover {
-    background: var(--background-4);
+    background-color: var(--background-3);
   }
   .post-fullpage__content.page-gas {
     background-color: transparent !important;
