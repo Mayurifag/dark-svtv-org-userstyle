@@ -225,31 +225,6 @@
   .page--is-post-donation .page__footer-wrap {
     background-color: inherit;
   }
-  /* Sidebar navigation links colored on hover */
-  a.sb-navigation__item-link[href*="/news/"]:hover .sb-navigation__icon svg {
-    fill: var(--accent);
-  }
-  a.sb-navigation__item-link[href*="/opinion/"]:hover .sb-navigation__icon svg {
-    fill: var(--opinions);
-  }
-  a.sb-navigation__item-link[href*="/thread/"]:hover .sb-navigation__icon svg {
-    fill: var(--thread);
-  }
-  a.sb-navigation__item-link[href*="/factchecking/"]:hover .sb-navigation__icon svg {
-    fill: var(--factchecking);
-  }
-  a.sb-navigation__item-link[href*="/tests/"]:hover .sb-navigation__icon svg {
-    fill: var(--test);
-  }
-  a.sb-navigation__item-link[href*="/translation/"]:hover .sb-navigation__icon svg {
-    fill: var(--translation);
-  }
-  a.sb-navigation__item-link[href*="/search/"]:hover .sb-navigation__icon svg {
-    fill: var(--text-primary);
-  }
-  a.sb-navigation__item-link[href*="/context/"]:hover .sb-navigation__icon svg {
-    fill: var(--accent);
-  }
   .post-card-notice--tor .post-card-notice__description {
     background-color: inherit !important;
   }
