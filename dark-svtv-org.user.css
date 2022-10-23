@@ -17,8 +17,8 @@
     --text-secondary: #939393;
     --accent: #fed27a;
     --thread: #f7931a;
-    --factchecking: #ff4a4a;
-    --test: #bcaeff;
+    /* --factchecking: #ff4a4a; */
+    /* --test: #bcaeff; */
     --opinions: #7aefff;
     --translation: #2e8eff;
     --my-news-minimal-background: #804c00;
@@ -94,7 +94,7 @@
   .card-opinions__date {
     background-color: var(--background-3);
   }
-  .card-factchecking__text {
+  /* .card-factchecking__text {
     background-color: var(--background-3);
   }
   .card-factchecking__person {
@@ -113,14 +113,14 @@
   }
   .card-factchecking__date {
     background-color: var(--background-3);
-  }
-  .card-tests__title {
+  } */
+  /* .card-tests__title {
     background-color: inherit;
   }
   .card-tests__category {
     color: var(--test);
     background-color: inherit;
-  }
+  } */
   .block-cards__item-width-1-5 {
     color: var(--background-3);
     background-color: inherit;
@@ -166,7 +166,7 @@
   .card-thread__date {
     color: var(--text-secondary);
   }
-  .page--is-test .page__footer-wrap {
+  /* .page--is-test .page__footer-wrap {
     display: none;
   }
   .quiz-test__title {
@@ -181,7 +181,7 @@
   }
   .quiz-test__socials-header {
     color: var(--text-primary);
-  }
+  } */
   .post-fullpage__content p {
     background-color: var(--background-secondary);
     color: var(--text-primary);
@@ -215,9 +215,9 @@
   .container__title {
     color: var(--text-primary);
   }
-  .quiz-test__category {
+  /* .quiz-test__category {
     color: var(--test) !important;
-  }
+  } */
   /* some pages have no donation footer actually, but have wrong footer div */
   .author-template .page__footer-wrap {
     background-color: inherit;
