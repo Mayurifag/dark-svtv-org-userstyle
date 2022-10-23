@@ -308,4 +308,7 @@
   .page-gas__social-text {
     color: var(--text-secondary);
   }
+  a .sb-footer__header span {
+    color: var(--text-primary);
+  }
 }
