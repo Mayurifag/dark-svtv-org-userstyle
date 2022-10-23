@@ -21,7 +21,7 @@
     /* --test: #bcaeff; */
     --opinions: #7aefff;
     --translation: #2e8eff;
-    --my-news-minimal-background: #804c00;
+    /* --my-news-minimal-background: #804c00; */
   }
   html {
     background-color: var(--background-primary);
@@ -47,21 +47,21 @@
     color: var(--accent);
     background-color: inherit;
   }
-  .card-news--minimal .card-news__category {
+  /* .card-news--minimal .card-news__category {
     color: var(--accent);
   }
   .card-news--minimal {
     background-color: var(--my-news-minimal-background) !important;
     border-color: var(--my-news-minimal-background) !important;
-  }
+  } */
   .card-news__content {
     background-color: var(--background-secondary);
   }
-  .card-news--minimal .card-news__content:hover {
+  /* .card-news--minimal .card-news__content:hover {
     color: var(--my-news-minimal-background);
     background-color: var(--my-news-minimal-background) !important;
     border-color: var(--my-news-minimal-background) !important;
-  }
+  } */
   .card-thread__content {
     background-color: var(--background-secondary);
   }
