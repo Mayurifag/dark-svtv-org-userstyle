@@ -311,4 +311,16 @@
   a .sb-footer__header span {
     color: var(--text-primary);
   }
+  .slide-thread__content {
+    background-color: var(--background-3);
+    color: var(--text-primary);
+  }
+  .slide-thread::after, .slide-thread::before  {
+    background-color: var(--background-3) !important;
+    border-color: hsla(0,0%,100%,.12);
+  }
+  .slide-thread__content__footer {
+    color: var(--text-primary);
+    opacity: .5;
+  }
 }
