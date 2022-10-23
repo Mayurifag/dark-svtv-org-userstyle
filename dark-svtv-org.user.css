@@ -17,11 +17,8 @@
     --text-secondary: #939393;
     --accent: #fed27a;
     --thread: #f7931a;
-    /* --factchecking: #ff4a4a; */
-    /* --test: #bcaeff; */
     --opinions: #7aefff;
     --translation: #2e8eff;
-    /* --my-news-minimal-background: #804c00; */
     --selection-background: rgba(255,187,66,.27);
   }
   html {
@@ -48,21 +45,9 @@
     color: var(--accent);
     background-color: inherit;
   }
-  /* .card-news--minimal .card-news__category {
-    color: var(--accent);
-  }
-  .card-news--minimal {
-    background-color: var(--my-news-minimal-background) !important;
-    border-color: var(--my-news-minimal-background) !important;
-  } */
   .card-news__content {
     background-color: var(--background-secondary);
   }
-  /* .card-news--minimal .card-news__content:hover {
-    color: var(--my-news-minimal-background);
-    background-color: var(--my-news-minimal-background) !important;
-    border-color: var(--my-news-minimal-background) !important;
-  } */
   .card-thread__content {
     background-color: var(--background-secondary);
   }
@@ -95,33 +80,6 @@
   .card-opinions__date {
     background-color: var(--background-3);
   }
-  /* .card-factchecking__text {
-    background-color: var(--background-3);
-  }
-  .card-factchecking__person {
-    background-color: var(--background-3);
-  }
-  .card-factchecking__person-name {
-    background-color: var(--background-3);
-  }
-  .card-factchecking__category {
-    background-color: var(--background-3);
-    color: var(--factchecking);
-  }
-  .card-factchecking__person-description {
-    background-color: var(--background-3);
-    color: var(--text-secondary);
-  }
-  .card-factchecking__date {
-    background-color: var(--background-3);
-  } */
-  /* .card-tests__title {
-    background-color: inherit;
-  }
-  .card-tests__category {
-    color: var(--test);
-    background-color: inherit;
-  } */
   .block-cards__item-width-1-5 {
     color: var(--background-3);
     background-color: inherit;
@@ -167,22 +125,6 @@
   .card-thread__date {
     color: var(--text-secondary);
   }
-  /* .page--is-test .page__footer-wrap {
-    display: none;
-  }
-  .quiz-test__title {
-    color: var(--text-primary);
-  }
-  .quiz-test__poll-value-text {
-    color: var(--text-primary);
-  }
-  .quiz-test__poll-value {
-    background-color: var(--background-3);
-    color: var(--text-primary);
-  }
-  .quiz-test__socials-header {
-    color: var(--text-primary);
-  } */
   .post-fullpage__content p {
     background-color: var(--background-secondary);
     color: var(--text-primary);
@@ -197,15 +139,6 @@
   .author-header__description {
     color: var(--text-secondary);
   }
-  /* TODO: make this optional for userstyles
-  .card-news--minimal .card-news__image-wrap {
-    display: inherit;
-  }
-  */
-  /* TODO: think do I need to recolor watch live stream button
-  .sb-live__button {
-    background-color: #e0e0e0;
-  } */
   .thread-blob p {
     background-color: var(--background-3);
   }
@@ -216,9 +149,6 @@
   .container__title {
     color: var(--text-primary);
   }
-  /* .quiz-test__category {
-    color: var(--test) !important;
-  } */
   /* some pages have no donation footer actually, but have wrong footer div */
   .author-template .page__footer-wrap {
     background-color: inherit;
