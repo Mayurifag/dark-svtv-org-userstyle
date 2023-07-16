@@ -22,9 +22,8 @@
     --selection-background: rgba(255 187 66 27%);
     --backward-cards-background-color: hsla(0 0% 100% 12%);
   }
-  html {
-    background-color: var(--background-primary);
-  }
+  html,
+  main,
   .page__content-wrap {
     background-color: var(--background-primary);
   }
